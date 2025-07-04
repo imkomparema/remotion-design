@@ -1,10 +1,13 @@
 export const matchData = {
-  team1: "Ligorna",
-  team2: "Cairese",
-  logo1: "/assets/ligorna.png",
-  logo2: "/assets/cairese.png",
-  stadium: "Allianz Stadium",
-  datetime: "Domenica 7 Luglio 2025 - ore 20:45",
-  backgroundVideo: "/assets/provadesigna.mp4",
-};
-
+  backgroundVideo: "/assetsprovadesigna.mp4",
+  teamA: {
+    name: "Ligorna",
+    logo: "/assets/ligorna.png"
+  },
+  teamB: {
+    name: "Cairese",
+    logo: "/assets/cairese.png"
+  },
+  stadium: "Stadio Ferrando",
+  dateTime: "07/07/2025 - 17:00"
+}; 
